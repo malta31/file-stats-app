@@ -61,4 +61,4 @@ Per ottenere le statistiche di un file, fai una richiesta GET all'endpoint /file
 
 È incluso un set di test Jest per verificare il funzionamento del servizio di analisi file. Per eseguire i test, esegui:
 
-- npm test
+- cd App && npm test

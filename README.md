@@ -19,7 +19,7 @@ npm (o yarn)
 
 È possibile eseguire l'applicazione in un container Docker. Assicurati di avere Docker installato sul tuo sistema e esegui i seguenti comandi:
 
-- docker-compose up --build
+- cd App && docker-compose up --build
 
 L'applicazione sarà quindi accessibile all'indirizzo http://localhost:3000.
 

@@ -29,7 +29,7 @@ Per ottenere le statistiche di un file, fai una richiesta GET all'endpoint /file
 
 # Esempi di richiesta:
 
-- curl http://localhost:3000/file-stats?url=testfile.txt
+- curl "http://localhost:3000/file-stats?url=testfile.txt"
   Esempio di risposta:
   {
   "totalWords": 122,
@@ -48,7 +48,7 @@ Per ottenere le statistiche di un file, fai una richiesta GET all'endpoint /file
   ]
   }
 
-- curl http://localhost:3000/file-stats?url=https://storage.googleapis.com/maltagaetano/Informativa%20sulla%20Privacy%20-%20maltagaetano.docx
+- curl "http://localhost:3000/file-stats?url=https://storage.googleapis.com/maltagaetano/Informativa%20sulla%20Privacy%20-%20maltagaetano.docx"
   Esempio di risposta:
   {
   "totalWords": 355,
